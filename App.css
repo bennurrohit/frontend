@@ -1,0 +1,25 @@
+:root{
+  --primary-color : #f90d0d;
+}
+.btn-solid{
+  bottom: none;
+  padding: 10px;
+  background-repeat: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+  min-width: 150px;
+}
+.btn-outline{
+  bottom: none;
+  padding: 10px;
+  min-width: 150px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: transparent;
+}
+@media(max-width:578px){
+  .btn-solid{
+    width: 100%;
+  }
+}
